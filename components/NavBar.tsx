@@ -52,15 +52,27 @@ function NavBar() {
 
       {/* Social media links */}
       <div className="flex items-center gap-6">
-        <Link href={GITHUB_PROFILE_URL} target="_blank">
-          <Github strokeWidth={1.5} />
+        <Link href={GITHUB_PROFILE_URL} target="_blank" tabIndex={-1}>
+          <Github
+            className="hover:fill-white focus-visible:fill-white"
+            strokeWidth={1.5}
+            tabIndex={0}
+          />
         </Link>
-        <Link href={LINKEDIN_PROFILE_URL} target="_blank">
-          <Linkedin strokeWidth={1.5} />
+        <Link href={LINKEDIN_PROFILE_URL} target="_blank" tabIndex={-1}>
+          <Linkedin
+            className="hover:fill-white focus-visible:fill-white"
+            strokeWidth={1.5}
+            tabIndex={0}
+          />
         </Link>
         {/* TODO: Insert proper email link */}
-        <Link href="#" target="_blank">
-          <Mail strokeWidth={1.5} />
+        <Link href="#" target="_blank" tabIndex={-1}>
+          <Mail
+            className="hover:fill-white hover:stroke-black focus-visible:stroke-black focus-visible:fill-white"
+            strokeWidth={1.5}
+            tabIndex={0}
+          />
         </Link>
       </div>
     </nav>
