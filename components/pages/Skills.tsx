@@ -3,7 +3,13 @@ import { Sparkles } from "lucide-react";
 
 import { SKILLS_LIST } from "@/lib/constants";
 import { fadeIn, slideInFromBottom } from "@/lib/animations";
-import { Badge } from "@/components/ui";
+import {
+  Badge,
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui";
 import { MotionDiv } from "@/components/utils/Motion";
 import SVG from "@/components/utils/SVG";
 
@@ -29,12 +35,21 @@ function Skills() {
       {/* Logos */}
       <div className="flex items-center justify-center gap-4 flex-wrap">
         {SKILLS_LIST.map((skill, i) => (
-          <MotionDiv key={skill} {...slideInFromBottom(i / 10)}>
-            <SVG
-              className="w-28 h-28 relative [&_svg]:absolute [&_svg]:h-20 [&_svg]:w-20 [&_svg]:left-1/2 [&_svg]:top-1/2 [&_svg]:-translate-x-1/2 [&_svg]:-translate-y-1/2 hover:-translate-y-4 transition-transform duration-300"
-              src={skill}
-            />
-          </MotionDiv>
+          <TooltipProvider key={skill.path} delayDuration={100}>
+            <Tooltip>
+              <TooltipTrigger className="cursor-default">
+                <MotionDiv {...slideInFromBottom(i / 10)}>
+                  <SVG
+                    className="w-28 h-28 relative [&_svg]:absolute [&_svg]:h-20 [&_svg]:w-20 [&_svg]:left-1/2 [&_svg]:top-1/2 [&_svg]:-translate-x-1/2 [&_svg]:-translate-y-1/2 hover:-translate-y-4 transition-transform duration-300"
+                    src={skill.path}
+                  />
+                </MotionDiv>
+              </TooltipTrigger>
+              <TooltipContent sideOffset={8}>
+                <p>{skill.skillName}</p>
+              </TooltipContent>
+            </Tooltip>
+          </TooltipProvider>
         ))}
       </div>
 

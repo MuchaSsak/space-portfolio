@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
+import emailjs from "@emailjs/browser";
 
 import "@/app/globals.css";
 import { cn } from "@/lib/utils";
+import { EMAILJS_PUBLIC_KEY } from "@/lib/constants";
 import StarsBackground from "@/canvas/StarsBackground";
+import { Toaster } from "@/components/ui/sonner";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 
@@ -23,6 +26,13 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // Initialize EmailJS
+  (function () {
+    emailjs.init({
+      publicKey: EMAILJS_PUBLIC_KEY,
+    });
+  })();
+
   return (
     <html lang="en" className="dark scroll-smooth">
       <head>
@@ -36,6 +46,7 @@ export default function RootLayout({
       >
         <NavBar />
         <StarsBackground />
+        <Toaster />
 
         {children}
 

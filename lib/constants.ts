@@ -5,13 +5,35 @@ export const LINKEDIN_PROFILE_URL =
   "https://uk.linkedin.com/in/mateusz-muszarski-b1168a28a";
 export const CONTACT_EMAIL = "kontakt@muszarski.pl";
 
+export const EMAILJS_PUBLIC_KEY = "Unh7wKuX7D61UVGOX";
+export const EMAILJS_SERVICE_ID = "service_dxoxave";
+export const EMAILJS_TEMPLATE_ID = "template_4e3jgyp";
+
 export const SKILLS_LIST = [
-  "/static/images/logos/nextjs.svg",
-  "/static/images/logos/typescript.svg",
-  "/static/images/logos/react.svg",
-  "/static/images/logos/tailwindcss.svg",
-  "/static/images/logos/react-query.svg",
-  "/static/images/logos/supabase.svg",
+  {
+    path: "/static/images/logos/nextjs.svg",
+    skillName: "Next.js",
+  },
+  {
+    path: "/static/images/logos/typescript.svg",
+    skillName: "TypeScript",
+  },
+  {
+    path: "/static/images/logos/react.svg",
+    skillName: "React",
+  },
+  {
+    path: "/static/images/logos/tailwindcss.svg",
+    skillName: "TailwindCSS",
+  },
+  {
+    path: "/static/images/logos/react-query.svg",
+    skillName: "Tanstack Query",
+  },
+  {
+    path: "/static/images/logos/supabase.svg",
+    skillName: "Supabase",
+  },
 ];
 
 export const PROJECTS_LIST = [

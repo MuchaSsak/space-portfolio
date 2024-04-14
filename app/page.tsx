@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Hero, Projects, Skills } from "@/components/pages";
+import { Contact, Hero, Projects, Skills } from "@/components/pages";
 
 function Home() {
   return (
@@ -8,6 +8,7 @@ function Home() {
       <Hero />
       <Skills />
       <Projects />
+      <Contact />
     </>
   );
 }

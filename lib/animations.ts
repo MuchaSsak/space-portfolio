@@ -91,3 +91,40 @@ export function fadeIn(delay = 0, duration = 0.5) {
     whileInView: "visible",
   };
 }
+
+export function fadeOut(delay = 0, duration = 1) {
+  return {
+    variants: {
+      hidden: { opacity: 1, zIndex: 50 },
+      visible: {
+        opacity: 0,
+        zIndex: -10,
+        transition: {
+          delay: delay,
+          duration: duration,
+        },
+      },
+    },
+    viewport: { once: true },
+    initial: "hidden",
+    whileInView: "visible",
+  };
+}
+
+export function svgPathLengthIn(delay = 0, duration = 3) {
+  return {
+    variants: {
+      hidden: { pathLength: 0 },
+      visible: {
+        pathLength: 1,
+        transition: {
+          delay: delay,
+          duration: duration,
+        },
+      },
+    },
+    viewport: { once: true },
+    initial: "hidden",
+    whileInView: "visible",
+  };
+}

@@ -9,7 +9,7 @@ function Footer() {
   return (
     <footer
       id="footer"
-      className="w-full flex flex-col side-padding items-center justify-center gap-6 h-32 mt-36 py-24 bg-black/35 relative z-10"
+      className="w-full flex flex-col side-padding items-center justify-center gap-6 h-32 py-24 bg-black/35 relative z-10"
     >
       <div className="flex items-center gap-4">
         {/* Social media links */}

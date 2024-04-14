@@ -10,7 +10,7 @@ import { Button } from "@/components/ui";
 function ProjectCard({ project, index }: { project: Project; index: number }) {
   return (
     <MotionDiv
-      className={`flex max-xl:flex-col max-md:w-full 2xl:w-1/2 w-3/4 border border-solid border-purple-900 shadow-xl rounded-xl ${
+      className={`flex max-xl:flex-col max-md:w-full 2xl:w-1/2 w-3/4 border border-solid border-purple-900 drop-shadow-xl rounded-xl hover:border-slate-100 transition-colors duration-300 ease-out hover:shadow-[0_0_4rem_rgb(88,28,135)] ${
         index % 2 ? "flex-row-reverse" : "flex-row"
       }`}
       {...slideInFromBottom()}
