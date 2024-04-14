@@ -3,9 +3,9 @@ import { Inter as FontSans } from "next/font/google";
 
 import "@/app/globals.css";
 import { cn } from "@/lib/utils";
-import NavBar from "@/components/NavBar";
 import StarsBackground from "@/canvas/StarsBackground";
-import { GITHUB_AVATAR_URL } from "@/lib/constants";
+import NavBar from "@/components/NavBar";
+import Footer from "@/components/Footer";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -38,6 +38,8 @@ export default function RootLayout({
         <StarsBackground />
 
         {children}
+
+        <Footer />
       </body>
     </html>
   );

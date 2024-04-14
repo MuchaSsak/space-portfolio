@@ -11,7 +11,7 @@ function Projects() {
   return (
     <section
       id="projects"
-      className="w-full min-h-screen side-padding flex flex-col items-center justify-center gap-8 relative pb-48"
+      className="w-full min-h-screen side-padding flex flex-col items-center justify-center gap-8 relative"
     >
       {/* Text */}
       <MotionDiv {...fadeIn(0.5)}>
