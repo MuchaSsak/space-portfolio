@@ -1,3 +1,12 @@
+# [1.2.0](https://github.com/MuchaSsak/space-portfolio/compare/v1.1.0...v1.2.0) (2024-04-14)
+
+
+### Features
+
+* add icons hover transition ([27f7dde](https://github.com/MuchaSsak/space-portfolio/commit/27f7dde6c41de467bb4be7f55d6bc8c5758afae6))
+
+
+
 # [1.1.0](https://github.com/MuchaSsak/space-portfolio/compare/v1.0.0...v1.1.0) (2024-04-14)
 
 
