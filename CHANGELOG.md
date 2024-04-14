@@ -1,3 +1,12 @@
+# [1.3.0](https://github.com/MuchaSsak/space-portfolio/compare/v1.2.0...v1.3.0) (2024-04-14)
+
+
+### Features
+
+* add footer ([0a2db52](https://github.com/MuchaSsak/space-portfolio/commit/0a2db528b455764559cf2fdd6331e743abd258b2))
+
+
+
 # [1.2.0](https://github.com/MuchaSsak/space-portfolio/compare/v1.1.0...v1.2.0) (2024-04-14)
 
 
