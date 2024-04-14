@@ -1,3 +1,12 @@
+# [1.4.0](https://github.com/MuchaSsak/space-portfolio/compare/v1.3.0...v1.4.0) (2024-04-14)
+
+
+### Features
+
+* add contact section ([403ec67](https://github.com/MuchaSsak/space-portfolio/commit/403ec6708002c6b6d30dcb715ba83ee199203c36))
+
+
+
 # [1.3.0](https://github.com/MuchaSsak/space-portfolio/compare/v1.2.0...v1.3.0) (2024-04-14)
 
 
