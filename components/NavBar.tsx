@@ -68,8 +68,7 @@ function NavBar() {
             tabIndex={0}
           />
         </Link>
-        {/* TODO: Insert proper email link */}
-        <Link href="#" target="_blank" tabIndex={-1}>
+        <Link href={`mailto:${CONTACT_EMAIL}`} target="_blank" tabIndex={-1}>
           <Mail
             className="hover:fill-white hover:stroke-black focus-visible:stroke-black focus-visible:fill-white"
             strokeWidth={1.5}

@@ -2,7 +2,11 @@ import React from "react";
 import Link from "next/link";
 import { Github, Linkedin, Mail } from "lucide-react";
 
-import { GITHUB_PROFILE_URL, LINKEDIN_PROFILE_URL } from "@/lib/constants";
+import {
+  CONTACT_EMAIL,
+  GITHUB_PROFILE_URL,
+  LINKEDIN_PROFILE_URL,
+} from "@/lib/constants";
 import { Button } from "@/components/ui";
 
 function Footer() {
@@ -31,8 +35,7 @@ function Footer() {
             <Linkedin strokeWidth={1.5} />
           </Button>
         </Link>
-        {/* TODO: Insert proper email link */}
-        <Link href="#" target="_blank" tabIndex={-1}>
+        <Link href={`mailto:${CONTACT_EMAIL}`} target="_blank" tabIndex={-1}>
           <Button
             className="rounded-full p-2.5"
             variant="secondary"
