@@ -1,3 +1,12 @@
+# [1.5.0](https://github.com/MuchaSsak/space-portfolio/compare/v1.4.0...v1.5.0) (2024-04-14)
+
+
+### Features
+
+* add mailto links to email icons ([08373af](https://github.com/MuchaSsak/space-portfolio/commit/08373af0b421b039ef1fbca3f3b55bc6b9eb169c))
+
+
+
 # [1.4.0](https://github.com/MuchaSsak/space-portfolio/compare/v1.3.0...v1.4.0) (2024-04-14)
 
 
@@ -31,20 +40,6 @@
 ### Features
 
 * add projects section ([c8de3f5](https://github.com/MuchaSsak/space-portfolio/commit/c8de3f552f23837114e3c32c3268219313bbe107))
-
-
-
-# [1.0.0](https://github.com/MuchaSsak/space-portfolio/compare/95ca7de7160bdf568648a61008563f813dfee3a6...v1.0.0) (2024-04-13)
-
-
-### Features
-
-* initial commit ([95ca7de](https://github.com/MuchaSsak/space-portfolio/commit/95ca7de7160bdf568648a61008563f813dfee3a6))
-
-
-### BREAKING CHANGES
-
-* initial commit
 
 
 
