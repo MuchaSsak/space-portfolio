@@ -21,7 +21,7 @@ function Hero() {
   return (
     <section
       id="hero"
-      className="w-screen min-h-screen flex side-padding items-center justify-center relative"
+      className="w-full min-h-screen flex side-padding items-center justify-center relative"
     >
       {/* Black hole video */}
       <MotionVideo

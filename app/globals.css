@@ -81,5 +81,5 @@
 }
 
 .head-title {
-  @apply text-3xl font-bold text-balance;
+  @apply text-4xl font-bold text-balance text-center;
 }
