@@ -3,7 +3,7 @@ export const GITHUB_AVATAR_URL =
   "https://avatars.githubusercontent.com/u/107958275?v=4";
 export const LINKEDIN_PROFILE_URL =
   "https://uk.linkedin.com/in/mateusz-muszarski-b1168a28a";
-export const CONTACT_EMAIL = "kontakt@muszarski.pl";
+export const CONTACT_EMAIL = "mat.muszarski@gmail.com";
 
 export const EMAILJS_PUBLIC_KEY = "Unh7wKuX7D61UVGOX";
 export const EMAILJS_SERVICE_ID = "service_dxoxave";
