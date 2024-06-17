@@ -2,6 +2,7 @@ import React from "react";
 import { Sparkles } from "lucide-react";
 
 import { fadeIn } from "@/lib/animations";
+import { CONTACT_EMAIL } from "@/lib/constants";
 import ContactIcon from "@/components/ContactIcon";
 import ContactForm from "@/components/ContactForm";
 import { MotionDiv } from "@/components/utils/Motion";
@@ -16,7 +17,7 @@ function Contact() {
       <MotionDiv {...fadeIn(0.5)}>
         <Badge variant="outline">
           <Sparkles className="py-1 text-[#e59cffde]" />
-          kontakt@muszarski.pl
+          {CONTACT_EMAIL}
         </Badge>
       </MotionDiv>
       <h1 className="head-title pt-6">Contact me via mail</h1>
