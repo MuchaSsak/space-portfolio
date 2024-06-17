@@ -1,3 +1,12 @@
+## [1.5.2](https://github.com/MuchaSsak/space-portfolio/compare/v1.5.1...v1.5.2) (2024-06-17)
+
+
+### Bug Fixes
+
+* display actual contact email in badge ([26f0980](https://github.com/MuchaSsak/space-portfolio/commit/26f098039f6f56d5f80607b20628c0e5dd8614a4))
+
+
+
 ## [1.5.1](https://github.com/MuchaSsak/space-portfolio/compare/v1.5.0...v1.5.1) (2024-06-17)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * add footer ([0a2db52](https://github.com/MuchaSsak/space-portfolio/commit/0a2db528b455764559cf2fdd6331e743abd258b2))
-
-
-
-# [1.2.0](https://github.com/MuchaSsak/space-portfolio/compare/v1.1.0...v1.2.0) (2024-04-14)
-
-
-### Features
-
-* add icons hover transition ([27f7dde](https://github.com/MuchaSsak/space-portfolio/commit/27f7dde6c41de467bb4be7f55d6bc8c5758afae6))
 
 
 
