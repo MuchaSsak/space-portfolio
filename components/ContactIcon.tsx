@@ -6,7 +6,7 @@ import { MotionDiv, MotionPath, MotionSvg } from "@/components/utils/Motion";
 function ContactIcon() {
   return (
     <MotionDiv
-      className="select-none absolute left-1/2 top-[25rem] -translate-x-1/2 -z-10"
+      className="select-none absolute left-1/2 top-[18rem] -translate-x-1/2 -z-10"
       {...fadeOut(4)}
     >
       <MotionSvg

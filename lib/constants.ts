@@ -6,10 +6,14 @@ export const LINKEDIN_PROFILE_URL =
 export const CONTACT_EMAIL = "mat.muszarski@gmail.com";
 
 export const EMAILJS_PUBLIC_KEY = "Unh7wKuX7D61UVGOX";
-export const EMAILJS_SERVICE_ID = "service_dxoxave";
+export const EMAILJS_SERVICE_ID = "service_ygvcefb";
 export const EMAILJS_TEMPLATE_ID = "template_4e3jgyp";
 
 export const SKILLS_LIST = [
+  {
+    path: "/static/images/logos/threejs.svg",
+    skillName: "Three.js",
+  },
   {
     path: "/static/images/logos/nextjs.svg",
     skillName: "Next.js",
@@ -38,25 +42,65 @@ export const SKILLS_LIST = [
 
 export const PROJECTS_LIST = [
   {
-    imageSrc: "/static/images/projects/supabase-auth.png",
-    codeUrl: "https://github.com/MuchaSsak/supabase-auth",
-    liveUrl: "https://mucha-auth.vercel.app",
-    title: "Supabase Auth 🔒",
+    imageSrc: "/static/images/projects/3d-space-folio.jpg",
+    codeUrl: "https://github.com/MuchaSsak/3d-space-folio",
+    liveUrl: "https://3d-space-folio.vercel.app",
+    title: "3D Space Folio 🌌",
+    description: "Fully immersive 3D experience through the solar system.",
+    icons: [
+      "/static/images/logos/threejs.svg",
+      "/static/images/logos/typescript.svg",
+      "/static/images/logos/react.svg",
+      "/static/images/logos/tailwindcss.svg",
+    ],
+  },
+  {
+    imageSrc: "/static/images/projects/yws.lu.jpg",
+    codeUrl: "https://github.com/MuchaSsak/yws.lu",
+    liveUrl: "https://yws-lu.vercel.app",
+    title: "Youth Work Synergy 🏠",
+    description: "A 3D landing page for a beautiful organization in Luxemburg.",
+    icons: [
+      "/static/images/logos/threejs.svg",
+      "/static/images/logos/nextjs.svg",
+      "/static/images/logos/typescript.svg",
+      "/static/images/logos/react.svg",
+      "/static/images/logos/tailwindcss.svg",
+    ],
+  },
+  {
+    imageSrc: "/static/images/projects/beniaminek03-screensaver.jpg",
+    codeUrl: "https://github.com/MuchaSsak/beniaminek03-screensaver",
+    liveUrl: "https://beniaminek03-screensaver.vercel.app",
+    title: "Beniaminek 03 Screensaver",
     description:
-      "Robust authentication & authorization example made in Next.js with Supabase and Tanstack Query. Complete with error handling, loading states, resetting passwords, email confirmation and more.",
+      "3D screensaver for a sports club using GPGPU computing in R3F ⚡",
+    icons: [
+      "/static/images/logos/threejs.svg",
+      "/static/images/logos/typescript.svg",
+      "/static/images/logos/react.svg",
+      "/static/images/logos/tailwindcss.svg",
+    ],
+  },
+  {
+    imageSrc: "/static/images/projects/lingotype.jpg",
+    codeUrl: "https://github.com/MuchaSsak/lingotype",
+    liveUrl: "https://lingotype.vercel.app",
+    title: "LingoType ⌨️",
+    description:
+      "A foreign language learning app for vocabulary reinforcement by typing.",
     icons: [
       "/static/images/logos/nextjs.svg",
       "/static/images/logos/typescript.svg",
       "/static/images/logos/react.svg",
       "/static/images/logos/tailwindcss.svg",
       "/static/images/logos/react-query.svg",
-      "/static/images/logos/supabase.svg",
     ],
   },
   {
     imageSrc: "/static/images/projects/space-portfolio.png",
     codeUrl: "https://github.com/MuchaSsak/space-portfolio",
-    liveUrl: "https://muszarski.pl",
+    liveUrl: "https://muszarski.space",
     title: "Space Portfolio 🌌",
     description:
       "A fully animated Next.js portfolio with the help of ThreeJS, Framer Motion, shadcn/ui and clever usage of .webm videos.",
