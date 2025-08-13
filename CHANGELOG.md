@@ -1,3 +1,12 @@
+## [1.5.3](https://github.com/MuchaSsak/space-portfolio/compare/v1.5.2...v1.5.3) (2025-08-13)
+
+
+### Bug Fixes
+
+* update projects and skills list ([cb48f80](https://github.com/MuchaSsak/space-portfolio/commit/cb48f808d45c9a1f6a1156d15dac73df100279a1))
+
+
+
 ## [1.5.2](https://github.com/MuchaSsak/space-portfolio/compare/v1.5.1...v1.5.2) (2024-06-17)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * add contact section ([403ec67](https://github.com/MuchaSsak/space-portfolio/commit/403ec6708002c6b6d30dcb715ba83ee199203c36))
-
-
-
-# [1.3.0](https://github.com/MuchaSsak/space-portfolio/compare/v1.2.0...v1.3.0) (2024-04-14)
-
-
-### Features
-
-* add footer ([0a2db52](https://github.com/MuchaSsak/space-portfolio/commit/0a2db528b455764559cf2fdd6331e743abd258b2))
 
 
 
