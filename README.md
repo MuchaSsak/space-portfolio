@@ -2,7 +2,7 @@
 
 A nicely animated Next.js portfolio heavily inspired by [@Mif2006](https://github.com/Mif2006) (see his deployed version [here](https://space-portolio.vercel.app/)) ☄️
 
-To see this application live, [click here](https://muszarski.space) 🚀
+To see this application live, [click here](https://mm-space-portfolio.vercel.app) 🚀
 
 ## Acknowledgements
 
